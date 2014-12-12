@@ -12,6 +12,7 @@
     "contributors": [
     ],
     "dependencies": {
+        "xml2js": "latest",
         "validator-nu": "latest"
     },
     "devDependencies": {

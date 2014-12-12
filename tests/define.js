@@ -6,7 +6,16 @@
     */
     exports.testValidatorDefined = function (test) {
         var vnu = require("../lib/vnu-angular");
-        test.ok(vnu !== undefined, "vnu-angular should be defined");
+        test.ok(vnu !== undefined, "vnu-angular should be defined.");
+        test.done();
+    };
+
+    /**
+    Test if validate function is defined.
+    */
+    exports.testValidatorDefined = function (test) {
+        var vnu = require("../lib/vnu-angular");
+        test.ok(vnu.validate !== undefined, "validate should be defined.");
         test.done();
     };
 }(exports, require));
