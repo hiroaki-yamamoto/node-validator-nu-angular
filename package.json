@@ -1,0 +1,29 @@
+{
+    "name": "validator-nu-angular",
+    "description": "NU Validator for AngularJS",
+    "repository": "https://github.com/hysoftware/node-validator-nu-angular.git",
+    "version": "0.0.0",
+    "license": "MIT",
+    "author": {
+        "name": "Hiroaki Yamamoto",
+        "email": "admin@hysoftware.net",
+        "url" : "https://hysoftware.net/"
+    },
+    "contributors": [
+    ],
+    "dependencies": {
+        "validator-nu": "latest"
+    },
+    "devDependencies": {
+        "grunt": "latest",
+        "jslint": "latest",
+        "nodeunit": "latest",
+        "grunt-contrib-watch": "latest",
+        "grunt-jslint": "latest",
+        "grunt-contrib-nodeunit": "latest",
+        "matchdep": "latest"
+    },
+    "scripts": {
+        "test": "grunt test"
+    }
+}
