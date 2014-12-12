@@ -10,7 +10,8 @@
             grunt.loadNpmTasks
         );
         var testTasks = [
-            "jslint:check"
+            "jslint:check",
+            "nodeunit:all"
         ], devTasks = testTasks;
         grunt.initConfig({
             "jslint": {
@@ -21,6 +22,9 @@
                         "tests/**/*.js"
                     ]
                 }
+            },
+            "nodeunit": {
+                "all": ["tests/**/*.js"]
             },
             "watch": {
                 "dev": {
