@@ -1,5 +1,5 @@
-/*global exports, require*/
-(function (exports, require) {
+/*global exports, require, process*/
+(function (exports, require, process) {
     "use strict";
     exports.testSimplePage = function (test) {
         var fs = require("fs"),
@@ -18,7 +18,7 @@
                     "Assessment result should be an empty list"
                 );
                 test.done();
-            });
+            }, process.env.VNU_BIN);
         });
     };
-}(exports, require));
+}(exports, require, process));
