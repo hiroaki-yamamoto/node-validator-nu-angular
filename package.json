@@ -9,8 +9,7 @@
         "email": "admin@hysoftware.net",
         "url" : "https://hysoftware.net/"
     },
-    "contributors": [
-    ],
+    "main": "./lib/validatornu.js",
     "dependencies": {
         "xml2js": "latest",
         "validator-nu": "latest"
