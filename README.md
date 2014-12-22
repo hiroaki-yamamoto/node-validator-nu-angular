@@ -31,6 +31,6 @@ Also just simple:
     // If you got validatornu was not found, set vnu path to 3rd parameter.
     vnu.validate("html here", function () {
         // callback
-    }, "./validatornu");
+    }, "/usr/bin/vnu.jar");
 }(exports, require));
 ~~~
