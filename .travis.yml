@@ -3,7 +3,8 @@ node_js:
     - "0.10.33"
 before_install:
     - "npm install -g grunt-cli"
-after_install:
+install:
+    - "npm install"
     - "java -jar ./node_modules/validator-nu/vnu/vnu.jar"
 jdk:
     - "openjdk7"
