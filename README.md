@@ -23,7 +23,7 @@ Also just simple:
 ~~~
 /*global exports, require*/
 (function (exports, require) {
-    var vnu = require("vnu-angular");
+    var vnu = require("validator-nu-angular");
     // Put HTML data, not the name of the file.
     vnu.validate("html here", function () {
         // callback
