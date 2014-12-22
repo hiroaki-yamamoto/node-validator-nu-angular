@@ -1,14 +1,9 @@
 language: node_js
 node_js:
     - "0.10.33"
-addons:
-    code_climate:
-        repo_token: c93691ce1532e37f2e0d2d783138a7d605ae14029fc610b2f9309bf6233562e5
 before_install:
     - "npm install -g grunt-cli"
 jdk:
     - "openjdk7"
 env:
     - VNU_BIN="./node_modules/validator-nu/vnu/vnu.jar"
-after_script:
-    - cat lcov.info | codeclimate
