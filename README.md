@@ -1,9 +1,9 @@
 # Nu Validator for AngularJS
 
-[![Build Status](https://travis-ci.org/hysoftware/node-validator-nu-angular.svg?branch=master)](https://travis-ci.org/hysoftware/node-validator-nu-angular)
-[![devDependency Status](https://david-dm.org/hysoftware/node-validator-nu-angular/dev-status.svg?style=flat)](https://david-dm.org/hysoftware/node-validator-nu-angular#info=devDependencies)
-[![Dependency Status](https://david-dm.org/hysoftware/node-validator-nu-angular.svg?style=flat)](https://david-dm.org/hysoftware/node-validator-nu-angular)
-[![Code Climate](https://codeclimate.com/github/hysoftware/node-validator-nu-angular/badges/gpa.svg)](https://codeclimate.com/github/hysoftware/node-validator-nu-angular)
+[![Build Status](https://travis-ci.org/hiroaki-yamamoto/node-validator-nu-angular.svg?branch=master)](https://travis-ci.org/hysoftware/node-validator-nu-angular)
+[![devDependency Status](https://david-dm.org/hiroaki-yamamoto/node-validator-nu-angular/dev-status.svg?style=flat)](https://david-dm.org/hysoftware/node-validator-nu-angular#info=devDependencies)
+[![Dependency Status](https://david-dm.org/hiroaki-yamamoto/node-validator-nu-angular.svg?style=flat)](https://david-dm.org/hysoftware/node-validator-nu-angular)
+[![Code Climate](https://codeclimate.com/github/hiroaki-yamamoto/node-validator-nu-angular/badges/gpa.svg)](https://codeclimate.com/github/hysoftware/node-validator-nu-angular)
 
 [![NPM](https://nodei.co/npm/validator-nu-angular.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/validator-nu-angular/)
 
