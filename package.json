@@ -2,7 +2,7 @@
     "name": "validator-nu-angular",
     "description": "NU Validator for AngularJS",
     "repository": "https://github.com/hysoftware/node-validator-nu-angular.git",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "license": "MIT",
     "author": {
         "name": "Hiroaki Yamamoto",
@@ -12,7 +12,7 @@
     "main": "./lib/vnu-angular.js",
     "dependencies": {
         "xml2js": "latest",
-        "validator-nu": "latest"
+        "validator-nu": "^1.0.0"
     },
     "devDependencies": {
         "grunt": "latest",
